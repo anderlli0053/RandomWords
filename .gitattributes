@@ -1,3 +1,2 @@
 Control.tscn filter=lfs diff=lfs merge=lfs -text
 project.godot filter=lfs diff=lfs merge=lfs -text
-data.json filter=lfs diff=lfs merge=lfs -text
