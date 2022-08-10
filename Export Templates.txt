@@ -1,0 +1,20 @@
+$env:SCRIPT_AES256_ENCRYPTION_KEY="10EDD5F07ED196D801FEBBB47F221EFA721ED5DD903D4F0C3D25DA7265EDD876"
+
+scons -j8 platform=windows tools=no target=release bits=64 debug_symbols=no && cd bin && strip godot.windows.opt.64.exe && explorer .
+
+
+
+EDITOR:
+
+scons -j8 platform=windows tools=yes target=release_debug bits=64 debug_symbols=no && cd bin && strip godot.windows.opt.tools.64.exe && explorer .
+
+
+
+
+pass: Andrew210699650010160790164Pozenel
+
+
+
+salt=EF083287AAFE85B3
+key=10EDD5F07ED196D801FEBBB47F221EFA721ED5DD903D4F0C3D25DA7265EDD876
+iv =98D4CB2CB556DEACF891611A311F2E55

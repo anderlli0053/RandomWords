@@ -6,7 +6,7 @@
 export.cfg
 
 # Excluded because it may contain sensitive information like keystore passwords
-export_presets.cfg
+# export_presets.cfg
 
 # Exclude imported translations
 *.translation
